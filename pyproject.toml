@@ -1,0 +1,18 @@
+[project]
+name = "whip"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+  "jaxtyping>=0.3.0",
+  "nanomanifold>=0.8.0",
+  "timm>=1.0.15",
+  "torch>=2.6.0",
+  "torchvision>=0.21.0",
+  "typer>=0.15.2",
+  "wandb>=0.19.8",
+]
+
+[tool.ruff]
+line-length = 120
+lint.extend-select = ["I"]
+lint.ignore = ["F722"]
